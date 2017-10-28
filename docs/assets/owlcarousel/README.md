@@ -1,17 +1,19 @@
+# OwlCarousel2 is currently being transferred to a new owner
+
+Stay tuned while the new owner sorts through some stuff. (Oh, hi, I'm [David](https://github.com/daviddeutsch)!)
+
 ## Owl Carousel 2
 
-Touch enabled [jQuery](https://jquery.com/) plugin that lets you create a beautiful, responsive carousel slider. 
-<!-- **To get started, check out https://owlcarousel2.github.io/OwlCarousel2/.** -->
+Touch enabled [jQuery](https://jquery.com/) plugin that lets you create a beautiful, responsive carousel slider. **To get started, check out https://owlcarousel2.github.io/OwlCarousel2/.**
 
 ## Quick start
 
-<!-- 
 ### Install
 
 This package can be installed with:
 
-- [npm](https://www.npmjs.com/package/owl.carousel2): `npm install --save owl.carousel`
--->
+- [npm](https://www.npmjs.com/package/owl.carousel): `npm install --save owl.carousel`
+- [bower](http://bower.io/search/?q=owl.carousel): `bower install --save owl.carousel`
 
 Or download the [latest release](https://github.com/saurabh-sharma/owl.carousel2/releases).
 
@@ -22,7 +24,7 @@ Or download the [latest release](https://github.com/saurabh-sharma/owl.carousel2
 Load the required stylesheet and JS:
 
 ```js
-import 'owl.carousel2/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.carousel.css';
 import $ from 'jquery';
 import 'imports?jQuery=jquery!owl.carousel';
 ```
@@ -32,11 +34,11 @@ import 'imports?jQuery=jquery!owl.carousel';
 Put the required stylesheet at the [top](https://developer.yahoo.com/performance/rules.html#css_top) of your markup:
 
 ```html
-<link rel="stylesheet" href="/node_modules/owl.carousel2/dist/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
 ```
 
 ```html
-<link rel="stylesheet" href="/bower_components/owl.carousel2/dist/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
 ```
 
 **NOTE:** If you want to use the default navigation styles, you will also need to include `owl.theme.default.css`.
@@ -46,7 +48,12 @@ Put the script at the [bottom](https://developer.yahoo.com/performance/rules.htm
 
 ```html
 <script src="/node_modules/jquery/dist/jquery.js"></script>
-<script src="/node_modules/owl.carousel2/dist/owl.carousel.min.js"></script>
+<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+```
+
+```html
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
 ```
 
 ### Usage
@@ -74,11 +81,10 @@ $(document).ready(function(){
   $('.owl-carousel').owlCarousel();
 });
 ```
-<!-- 
+
 ## Documentation
 
-The documentation, included in this repo in the root directory, is built with [Assemble](http://assemble.io/) and publicly available at https://owlcarousel2.github.io/OwlCarousel2/. The documentation may also be run locally. 
--->
+The documentation, included in this repo in the root directory, is built with [Assemble](http://assemble.io/) and publicly available at https://owlcarousel2.github.io/OwlCarousel2/. The documentation may also be run locally.
 
 ## Building
 
