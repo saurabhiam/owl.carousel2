@@ -1,6 +1,11 @@
+### Update
+> PR [#2021](https://github.com/OwlCarousel2/OwlCarousel2/pull/2021) is merged. Please follow [OwlCarousel2](https://owlcarousel2.github.io/OwlCarousel2/).
+
+---
+
 This plugin is a fork of original plugin [OwlCarousel2](https://owlcarousel2.github.io/OwlCarousel2/) with a fix that maintains the event binded to the slides while creating cloned slides when `loop:true`
 
-Until the PR [#2021](https://github.com/OwlCarousel2/OwlCarousel2/pull/2021) is merged, feel free to use this repo in your projects.
+~~Until the PR [#2021](https://github.com/OwlCarousel2/OwlCarousel2/pull/2021) is merged, feel free to use this repo in your projects.~~
 
 
 ## Owl Carousel 2
